@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mini-star": "^2.0.8",
+    "vite": "^4.0.4"
+  },
+  "scripts": {
+    "compile": "ministar buildPlugin all",
+    "serve": "vite serve",
+    "build": "vite build",
+    "lib": "vite build -c vite.lib.config.js"
+  }
+}
